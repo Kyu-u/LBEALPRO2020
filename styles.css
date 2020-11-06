@@ -1,0 +1,178 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+} */
+@font-face{
+    font-family: Mon;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: Monlight;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+body{
+    margin: 0;
+    background-color:rgb(153, 151, 147);
+}
+.home{
+    float: left;
+}
+ #haome{
+     text-decoration: none;
+ }
+.home li a{
+    display: block;
+    text-decoration: none;
+    /* text-align: center; */
+    font-family: Mon;
+    font-weight: bold;
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 20px;
+    color: white;
+    transition: transform .2s;
+}
+.home a:hover{
+    color: rgb(202, 29, 29);
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    height:55px;
+    background-color: transparent;
+    overflow: hidden;
+   
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.35);
+    display: inline-block;
+}
+
+
+.top{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* position: relative; */
+    display: block;
+    float: right;
+    
+}
+
+.nav li{
+    overflow: hidden;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: inline;
+    color: white;
+    
+    
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+    font-family: Mon;
+    display: inline-block;
+    transition: transform .2s;
+}
+.nav li a:hover{
+    color: gold;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.subnav{
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    display: table-row;
+}
+
+.nav li a{
+    font-size: 20px;
+}
+.nav li ul {
+    position:absolute;
+    display:none;
+    width:inherit;
+	text-align:center;
+}
+
+.nav li:hover ul {
+    display:block;
+}
+
+.nav li ul li {
+  display: block;
+  float:none !important; /* newly added */
+  height:auto; /* newly added */
+  line-height:34px; /* newly added */
+}
+
+.foto{
+    padding-top: 100px;
+}
+.foto img{
+
+    border-radius : 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;    
+    
+}
+
+
+
+.intro span{
+    margin-left: 30px;
+    font-family: Mon;
+    font-size: 40px;
+}
+.intro p{
+    font-family: Monlight;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.shortintro{
+    /* background-color: rgb(185, 169, 132); */
+    padding-bottom: 50px;
+}
+.eduhead {
+    text-align: center;
+    padding-top: 30px;
+    font-family: Mon;
+    font-size: 30px;
+    transition: transform .2s;
+}
+.eduhead:hover{
+    
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.shortintro hr{
+    color: black;
+    margin-top: 50px;
+    opacity: 0.2;
+}
+html{
+    scroll-behavior: smooth;
+}
