@@ -259,13 +259,17 @@ body{
     line-height: 30px;
     padding-top: 50px;
 }
-
+.end{
+    background-image: url(images/splash.jpeg);
+    background-size: cover;
+}
 .procontainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(images/splash.jpeg);
+    /* background-image: url(images/splash.jpeg); */
     padding-bottom: 90px;
+    /* background-size: cover; */
 }
 
 .procontainer h1{
@@ -299,6 +303,7 @@ body{
     
 }
 
+
 .probot img{
     padding: 40px;
     display: block;
@@ -306,11 +311,47 @@ body{
 
 }
 
+
 .probot img:hover{
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
 }
+
+.Contactt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url(images/contact.jpeg);
+    background-size: cover; */
+}
+
+.Contactt h1{
+    color: white;
+}
+
+.concon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.concon img{
+    height: 70px;
+    padding: 30px;
+    display: block;
+    transition: transform .2s;
+
+}
+
+.concon img :hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+
 html{
     scroll-behavior: smooth;
 }
